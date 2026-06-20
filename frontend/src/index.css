@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-app-bg: #0b0e14;
+  --color-app-surface: #12161f;
+  --color-app-border: #1e2535;
+  --color-app-accent: #e8c84a;
+  --color-app-accent-dim: rgba(232, 200, 74, 0.12);
+  --color-app-text: #e2e8f0;
+  --color-app-text-muted: #64748b;
+  --color-app-fatal: #ff4d4d;
+  --color-app-grave: #ff8c42;
+  --color-app-leve: #e8c84a;
+  --color-app-ileso: #4ade80;
+}
+
+body {
+  background: var(--color-app-bg);
+}
+
+.leaflet-popup-content-wrapper {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.leaflet-popup-tip {
+  display: none !important;
+}
+.leaflet-popup-content {
+  margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-app-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-app-border);
+  border-radius: 2px;
+}
