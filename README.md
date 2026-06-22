@@ -19,14 +19,14 @@ Visualização interativa de acidentes de trânsito no estado de São Paulo usan
   git clone https://github.com/joaovitorssilva/crash-map
 ```
 
+2. Inicie o Backend
 ```bash
-# 2. Inicie o Backend
 cd backend
 pnpm install
 pnpm dev        # http://localhost:3001
 ```
 
-# 2. Frontend (outro terminal)
+3. Frontend (outro terminal)
 ```
 cd frontend
 pnpm install
